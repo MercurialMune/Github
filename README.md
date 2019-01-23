@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-un `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Deployment was done using angular-cli on GitHub pages. the live link t the site is ... [GitHub Search](https://mercurialmune.github.io/Github/)The deployed page looks as follows:
+un `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Deployment was done using angular-cli on GitHub pages. The live link to the site is ... [GitHub Search](https://mercurialmune.github.io/Github/). The deployed page looks as follows:
 
  ![screenshot](src/assets/Screenshot.jpg)
 

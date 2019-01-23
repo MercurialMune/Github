@@ -6,11 +6,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileService } from './profile.service';
 import {FormsModule} from '@angular/forms';
+import { TextshadowDirective } from './textshadow.directive';
 
 @NgModule({
   declarations: [    
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    TextshadowDirective
   ],
   imports: [
     HttpClientModule,

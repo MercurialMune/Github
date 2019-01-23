@@ -1,5 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-body{
-  background-color: #111;
+
+body {
+  background-color: #FF5A09;
+}
+
+#pane1 {
+  z-index: 1;
+  float:left;
+  width: 30%;
+  margin: 0.5%;
+  border: none;
+  border-radius: 5px;
+  background-color: #393939;
+  border-color: #111;
+  box-shadow: 2px 2px 8px #111;
+  border-width: medium;
+  text-align: center;
+  color: white;
+  height: 300px;
+}
+
+#pane3 {
+  z-index: 1;
+  /* position: relative; */
+  width: 65%;
+  margin: 0.5%;
+  border: none;
+  border-radius: 5px;
+  border-color: #111;
+  box-shadow: 2px 2px 8px #111;
+  border-width: medium;
+  text-align: center;
+  color: white;
+  float: right;
+  background-color: #393939;
+}
+
+.repo-details {
+  text-align: left;
+  color: white;
+  border: solid;
+  border-color: #FF5A09;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.btn-orange {
+  margin: auto;
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #FF5A09;
+}
+
+.headr {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+}
+
+input {
+  margin: 50px 0;
+  background: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #393939;
+  width: 200px;
+  height: 30px;
+  color: #393939;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 3px solid #393939;
+  background: none;
+}
+
+button {
+  background: none;
+  border: none;
+  margin-top: 25px;
+}
+
+.material-icons.pinkone {
+  color: #393939;
+}
+
+button:focus {
+  outline: none;
+}
+
+.details {
+  text-align: left;
+  padding-left: 10px;
 }

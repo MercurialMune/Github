@@ -1,11 +1,11 @@
 # Github Search
 
-The following is an Angular project that uses GitHub API to allows users to view the owners Github Profile and Repositories. The site also allows users to search a specific username. The web app displayed the users information in a portfolio format while also providing live links tho that user's account.
+The following is an Angular project that uses GitHub API to allows users to view the owner's Github Profile and Repositories. The site also allows users to search a specific username. The web app displayed the users information in a portfolio format while also providing live links tho that user's account.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Development server
 
-un `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. The deployed page looks as follows:
+un `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Deployment was done using angular-cli on GitHub pages. the live link t the site is ... [GitHubSearch](https://mercurialmune.github.io/Github/)The deployed page looks as follows:
 
 ![screenshot](src/assets/screenshot.jpg)
 

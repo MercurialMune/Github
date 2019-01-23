@@ -1,9 +1,12 @@
 <div class="container">
-  <br>
-  <h1 class="text-center" appTextshadow>GitHub Search</h1>
   <div class="headr">
+    <h1 class="text-center" appTextshadow>GitHub Search</h1>
     <img width="60" alt="GitHub Logo" src="assets/GitHub-Mark-Light.png">
   </div>
-  <app-profile></app-profile>
+  <br>
+
+  <a routerLink='/portfolio' routerLinkActive='active'><button class="btn btn-sm btn-orange">Portfolio</button></a>
+  <a routerLink='/profile'><button class="btn btn-sm btn-orange">Search Repos</button></a>
+
   <router-outlet></router-outlet>
 </div>

@@ -15,14 +15,14 @@ export class PortfolioComponent implements OnInit {
   username: string;
 
   constructor(private profileservice: ProfileService) {
-      this.profileservice.getProfile().subscribe(profile => {
+    this.profileservice.getProfile().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
-      });
-      this.profileservice.getRepos().subscribe(repos => {
+    });
+    this.profileservice.getRepos().subscribe(repos => {
       console.log(repos);
       this.repos = repos;
-      });
+    });
   }
 
   ngOnInit() {

@@ -28,6 +28,6 @@ export class ProfileComponent implements OnInit {
 
   }
   ngOnInit() {
-    this.profileservice.keyedUser("MercurialMune");    
+    this.profileservice.keyedUser("MercurialMune");
   }
 }

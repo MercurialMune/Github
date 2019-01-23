@@ -1,29 +1,29 @@
 <div class="container">
-<div class="row">
+  <div class="row">
 
-<div id="pane1">
-  <br>
-  <img src="{{profile.avatar_url}}" alt="" width="120">
-  <h4 class="text-center">{{profile.name}}</h4>
-  <br>
-  <div class="panel text-left rounded" style="margin-left : 5px">
-    <p>@{{profile.login}}<br>
-      ...{{profile.bio}}...<br>
-      Followers: {{profile.followers}}<br>
-      Following: {{profile.following}}<br>
-      {{profile.public_repos}}<a href="{{profile.html_url}}"> Repositories </a>since {{profile.created_at | date}}</p><br>
-  </div>
-</div>
+    <div id="pane1">
+      <br>
+      <img src="{{profile.avatar_url}}" alt="" width="120">
+      <h4 class="text-center">{{profile.name}}</h4>
+      <br>
+      <div class="panel text-left rounded" style="margin-left : 5px">
+        <p>@{{profile.login}}<br>
+          ...{{profile.bio}}...<br>
+          Followers: {{profile.followers}}<br>
+          Following: {{profile.following}}<br>
+          {{profile.public_repos}}<a href="{{profile.html_url}}"> Repositories </a>since {{profile.created_at | date}}</p><br>
+      </div>
+    </div>
 
-<div id="pane3">
-  <br>
-  <h2>Repositories</h2>
-  <div class="repo-details" *ngFor="let repos of repos">
-    <h5 style="padding:5px">{{repos.name}}</h5>
-    <p style="padding:5px">{{repos.description}}</p>
-    <a href="{{repos.html_url}}?tab=repositories"><button class="btn btn-sm btn-orange" type="button" name="button">View</button></a>
-    <br>
+    <div id="pane3">
+      <br>
+      <h2>Repositories</h2>
+      <div class="repo-details" *ngFor="let repos of repos">
+        <h5 style="padding:5px">{{repos.name}}</h5>
+        <p style="padding:5px">{{repos.description}}</p>
+        <a href="{{repos.html_url}}?tab=repositories"><button class="btn btn-sm btn-orange" type="button" name="button">View</button></a>
+        <br>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </div>

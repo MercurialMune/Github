@@ -1,13 +1,7 @@
 <div class="row">
-  <form >
-    <input type="text" placeholder=" ... type any GitHub user ..." id="searchBar" [(ngModel)]="username" name="profile.login"(keyup)="getUsers()"  >
+  <form>
+    <input type="text" placeholder=" ... type any GitHub user ..." id="searchBar" [(ngModel)]="username" name="profile.login" (keyup)="getUsers()">
   </form>
-  <script>
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-    $scope.myVar = "MercurialMune";
-});
-</script>
 </div>
 <div class="row" *ngIf="profile">
   <div id="pane1">
@@ -20,7 +14,7 @@ app.controller('myCtrl', function($scope) {
         ...{{profile.bio}}...<br>
         Followers: {{profile.followers}}<br>
         Following: {{profile.following}}<br>
-        {{profile.public_repos}}<a href="{{profile.html_url}}"> Repositories </a>since {{profile.created_at}}</p><br>
+        {{profile.public_repos}}<a href="{{profile.html_url}}"> Repositories </a>since {{profile.created_at | date}}</p><br>
     </div>
   </div>
 

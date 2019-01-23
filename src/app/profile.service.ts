@@ -24,7 +24,6 @@ export class ProfileService {
   keyedUser(username: string) {
     this.username = username;
   }
-  OnInit(){
-    this.username = "MercurialMune";
+  OnInit() {
   }
 }

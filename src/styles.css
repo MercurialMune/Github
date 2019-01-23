@@ -7,7 +7,7 @@ body {
 
 #pane1 {
   z-index: 1;
-  float:left;
+  float: left;
   width: 30%;
   margin: 0.5%;
   border: none;
@@ -46,6 +46,10 @@ body {
   margin: 15px;
 }
 
+.navi {
+  float: right;
+}
+
 .btn-orange {
   margin: auto;
   display: block;
@@ -56,17 +60,18 @@ body {
 }
 
 .headr {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  float: right;
 }
 
 input {
-  margin: 50px 0;
+  z-index: 1000;
+  position: fixed;
+  top: 60px;
+  left: 90px;
+  margin: 60px 0;
   background: none;
   border-bottom: 1px solid white;
   border-top: none;
@@ -102,4 +107,10 @@ button:focus {
 .details {
   text-align: left;
   padding-left: 10px;
+}
+
+.row {
+  position: absolute;
+  top: 185px;
+  width: 85vw;
 }
